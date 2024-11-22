@@ -1,0 +1,6 @@
+.background-principal {
+    background: var(--preto) url("/imagens/background.jpg") no-repeat bottom center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --preto: #1c1c1c;
+    --cinza: #424242;
+    --branco: #FFFFFF;
+    --bege: #F5E9DA;
+    --amarelo: #FFC107;
+    --vermelho: #E53935;
+
+    --fonte-nav: font-family: Tillana-Medium, sans-serif;
+    --fonte-reserveagora: font-family: Tillana-ExtraBold, sans-serif;
+    --fonte-banner: font-family: Poppins-Black, sans-serif;
+
+    --fonte-ctaprincipal: font-family: Poppins-LightItalic, sans-serif;
+    --fonte-ctasobre: font-family: Poppins-Light, sans-serif;
+    --fonte-logo1: font-family: Poppins-Black, sans-serif;
+    --fonte-logo2: font-family: Poppins-Regular, sans-serif;
+    --fonte-botaocta: font-family: Poppins-SemiBold, sans-serif;
+
+    --fonte-titulos-sections-lanches-combos: font-family: Poppins-Bold, sans-serif;; 
+    --fonte-descricao-lanches-combos-sobrenos-infos: font-family: Poppins-ExtraLight, sans-serif;;
+    --fonte-destaquelanches: font-family: Poppins-Regular, sans-serif;;
+    --fonte-preçoslanchesecombos: font-family: Poppins-ExtraBold, sans-serif;;
+
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url("../fontes/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../fontes/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("../fontes/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url("../fontes/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("../fontes/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-LightItalic;
+    src: url("../fontes/Poppins-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fontes/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../fontes/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url("../fontes/Poppins-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Tillana-ExtraBold;
+    src: url("../fontes/Tillana-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Tillana-Medium;
+    src: url("../fontes/Tillana-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Tillana-Regular;
+    src: url("../fontes/Tillana-Regular.ttf") format("truetype");
+}
