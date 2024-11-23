@@ -10,22 +10,6 @@
     --bege: #F5E9DA;
     --amarelo: #FFC107;
     --vermelho: #E53935;
-
-    --fonte-nav: font-family: Tillana-Medium, sans-serif;
-    --fonte-reserveagora: font-family: Tillana-ExtraBold, sans-serif;
-    --fonte-banner: font-family: Poppins-Black, sans-serif;
-
-    --fonte-ctaprincipal: font-family: Poppins-LightItalic, sans-serif;
-    --fonte-ctasobre: font-family: Poppins-Light, sans-serif;
-    --fonte-logo1: font-family: Poppins-Black, sans-serif;
-    --fonte-logo2: font-family: Poppins-Regular, sans-serif;
-    --fonte-botaocta: font-family: Poppins-SemiBold, sans-serif;
-
-    --fonte-titulos-sections-lanches-combos: font-family: Poppins-Bold, sans-serif;; 
-    --fonte-descricao-lanches-combos-sobrenos-infos: font-family: Poppins-ExtraLight, sans-serif;;
-    --fonte-destaquelanches: font-family: Poppins-Regular, sans-serif;;
-    --fonte-preçoslanchesecombos: font-family: Poppins-ExtraBold, sans-serif;;
-
 }
 
 @font-face {
@@ -86,4 +70,8 @@
 @font-face {
     font-family: Tillana-Regular;
     src: url("../fontes/Tillana-Regular.ttf") format("truetype");
+}
+
+body {
+    overflow-x: hidden;
 }
