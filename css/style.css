@@ -56,7 +56,7 @@ li a:hover {
     height: 60em;
     width: 60em;
     border-radius: 50%;
-    background: var(--preto) url("../imagens/cta.jpg") no-repeat center center;
+    background: var(--preto) url("/imagens/cta.jpg") no-repeat center center;
     background-size: cover;
     position: absolute;
     bottom: -10.7em;
