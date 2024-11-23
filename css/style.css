@@ -33,7 +33,7 @@ li a:hover {
 }
 
 .background-principal {
-    background: var(--preto) url("/imagens/background.jpg") no-repeat bottom center;
+    background: var(--preto) url("../imagens/background.jpg") no-repeat bottom center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -56,7 +56,7 @@ li a:hover {
     height: 60em;
     width: 60em;
     border-radius: 50%;
-    background: var(--preto) url("/imagens/cta.jpg") no-repeat center center;
+    background: var(--preto) url("../imagens/cta.jpg") no-repeat center center;
     background-size: cover;
     position: absolute;
     bottom: -10.7em;
