@@ -8,19 +8,18 @@
     <title>Smash & Craft Burgers</title>
 </head>
 <body>
-    <section class="section-principal">
+    <section id="section-principal">
         <div class="background-principal">
             <div class="nav-bar">
-                <div class="link-reserve"><a href="#" id="link-reserve">Reserve agora!</a></div>
+                <div class="link-reserve"><a href="#section-cta" id="link-reserve">Reserve agora!</a></div>
         
                 <div class="nav">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Destaques</a></li>
-                            <li><a href="#">Combos</a></li>
-                            <li><a href="#">Sobre</a></li>
-                            <li><a href="#">Localização</a></li>
+                            <li><a href="#section-destaques">Destaques</a></li>
+                            <li><a href="#section-combos">Combos</a></li>
+                            <li><a href="#section-sobrenos">Sobre</a></li>
+                            <li><a href="#section-locali">Localização</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -29,7 +28,7 @@
     </section>
 
     <main>
-        <section class="section-cta">
+        <section id="section-cta">
             <div class="cta">
                 <div class="img-cta"></div>
         
@@ -48,32 +47,228 @@
             </div>
         </section>
 
-        <section class="section-destaques">
+        <section id="section-destaques">
             <div class="destaques">
-                <h1 id="titulo-destaques">Destaques</h1>
+                <h1 class="titulo-destaques">Destaques</h1>
 
                 <div class="destaques-geral">
-                    <div class="burger1">
+
+                    <div class="burger" id="burger1">
                         <div class="descricao">
-                            <h1 id="nome">Smash Supreme</h1>
-                            <p id="descricao">Carne smash 100% angus, queijo cheddar duplo, cebola caramelizada, bacon crocante e molho especial da casa no pão brioche levemente tostado.</p>
-                            <p id="diferencial">Combinação clássica com um toque especial do molho Smash.</p>
+                            <h1 class="nome-burger">Smash Supreme</h1>
+                            <p class="descricao-burger">Carne smash 100% angus, queijo cheddar duplo, cebola caramelizada, bacon crocante e molho especial da casa no pão brioche levemente tostado.</p>
+                            <p class="diferencial-burger">Combinação clássica com um toque especial do molho Smash.</p>
 
                             <div class="preco">
-                                <h2>R$ 34,90</h2>
-                                <h1>R$ 29,90</h1>
+                                <h2><span id="cifra-h2">R$</span> 34,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 29,90</h1>
                             </div>
                         </div>
 
-                        <div class="img-burger1">
-                            <img src="" alt="">
+                        <div class="img-burger">
+                            <img src="imagens/burger-1.jpg" alt="">
+                        </div> 
+                    </div>
+
+                    <div class="burger" id="burger2">
+                        <div class="img-burger">
+                            <img src="imagens/burger-2.jpg" alt="">
+                        </div> 
+                        
+                        <div class="descricao">
+                            <h1 class="nome-burger">Craft Double</h1>
+                            <p class="descricao-burger">Dois smash burgers de carne premium, queijo suíço, alface americana, tomate fresco, picles artesanal e maionese temperada no pão de batata.</p>
+                            <p class="diferencial-burger">Ideal para quem busca um lanche robusto e equilibrado.</p>
+
+                            <div class="preco">
+                                <h2><span id="cifra-h2">R$</span> 49,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 34,90</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="burger" id="burger3">
+                        <div class="descricao">
+                            <h1 class="nome-burger">BBQ Smash Delight</h1>
+                            <p class="descricao-burger">Hambúrguer smash, queijo prato, cebola crispy, barbecue defumado, picles de pepino e maionese de alho, no pão australiano.</p>
+                            <p class="diferencial-burger">Um toque defumado irresistível com um equilíbrio perfeito de texturas.</p>
+
+                            <div class="preco">
+                                <h2><span id="cifra-h2">R$</span> 35,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 32,90</h1>
+                            </div>
                         </div>
 
+                        <div class="img-burger">
+                            <img src="imagens/burger-3.jpg" alt="">
+                        </div> 
+                    </div>
+
+                    <div class="burger" id="burger4">
+                        <div class="img-burger">
+                            <img src="imagens/burger-4.jpg" alt="">
+                        </div> 
                         
+                        <div class="descricao">
+                            <h1 class="nome-burger">Fire Pepper</h1>
+                            <p class="descricao-burger">Smash burger, queijo pepper jack, jalapeños em conserva, molho chipotle, alface americana e maionese apimentada no pão brioche.</p>
+                            <p class="diferencial-burger">Perfeito para quem adora um sabor picante e intenso.</p>
+
+                            <div class="preco">
+                                <h2><span id="cifra-h2">R$</span> 36,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 33,90</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="section-destaques-veg">
+            <div class="destaques">
+                <h1 class="titulo-destaques">Destaques Veg</h1>
+
+                <div class="destaques-geral">
+                    <div class="burger" id="burger5">
+                        <div class="descricao">
+                            <h1 class="nome-burgerveg">Veggie Smash</h1>
+                            <p class="descricao-burger">Hambúrguer de grão-de-bico e ervas, queijo vegano, rúcula fresca, tomate, cebola roxa e maionese de tofu temperada, no pão integral.</p>
+                            <p class="diferencial-burgerveg">Uma opção saudável e saborosa com ingredientes frescos.</p>
+
+                            <div class="preco">
+                                <h2><span id="cifra-h2">R$</span> 32,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 28,90</h1>
+                            </div>
+                        </div>
+
+                        <div class="img-burger">
+                            <img src="imagens/burger-5-veg.jpg" alt="">
+                        </div> 
+                    </div>
+
+                    <div class="burger" id="burger6">
+                        <div class="img-burger">
+                            <img src="imagens/burger-6-veg.jpg" alt="">
+                        </div> 
+                        
+                        <div class="descricao">
+                            <h1 class="nome-burgerveg">Green Delight</h1>
+                            <p class="descricao-burger">Hambúrguer de lentilha e cogumelos, queijo vegano, cebola caramelizada, abacate fatiado, alface americana e molho especial vegano no pão de espinafre.</p>
+                            <p class="diferencial-burgerveg">Um lanche inovador, com sabores ricos e textura incrível.</p>
+
+                            <div class="preco">
+                                <h2><span id="cifra-h2">R$</span> 34,90</h2>
+                                <h1><span id="cifra-h1">R$</span> 30,90</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-combos">
+
+            <h1 class="titulo-combos">Combos Smash</h1>
+
+            <div class="combos">
+                    <div class="combos-esquerda">
+                        <div class="combo" id="combo1">
+                            <h1 class="nome-combo">Supreme Classic Combo</h1>
+                            <p class="descricao-combo">Smash Supreme <span id="mais-combo">+</span> Porção de Batatas Rústicas <span id="mais-combo">+</span> Refrigerante ou Suco.</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 34,90</p>
+                        </div>
+                        <div class="combo" id="combo2">
+                            <h1 class="nome-combo">Supreme Classic Combo</h1>
+                            <p class="descricao-combo">Craft Double <span id="mais-combo">+</span>  Porção de Onion Rings <span id="mais-combo">+</span> Cerveja Artesanal (350ml).</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 49,90</p>
+                        </div>
+                        <div class="combo" id="combo3">
+                            <h1 class="nome-combo">BBQ Smoky Combo</h1>
+                            <p class="descricao-combo">BBQ Smash Delight <span id="mais-combo">+</span> Porção de Batatas Canoinha com Cheddar e Bacon <span id="mais-combo">+</span> Refrigerante ou Água com Gás.</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 44,90</p>
+                        </div>
+                    </div>
+                    <div class="combos-direita">
+                        <div class="combo" id="combo4">
+                            <h1 class="nome-combo">Hot & Spicy Feast</h1>
+                            <p class="descricao-combo">Fire Pepper <span id="mais-combo">+</span> Porção de Jalapeños Empanados <span id="mais-combo">+</span> Cerveja Artesanal Defumada (350ml).</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 49,90</p>
+                        </div>
+                        <div class="combo" id="combo5-veg">
+                            <h1 class="nome-combo-veg">Veggie Essential Combo (veg)</h1>
+                            <p class="descricao-combo">Veggie Smash <span id="mais-combo">+</span> Porção de Chips de Batata Doce <span id="mais-combo">+</span> Suco Natural ou Água de Coco.</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 38,90</p>
+                        </div>
+                        <div class="combo" id="combo6-veg">
+                            <h1 class="nome-combo-veg">Green Harmony Combo (veg)</h1>
+                            <p class="descricao-combo">Green Delight <span id="mais-combo">+</span> Salada Caesar Vegana <span id="mais-combo">+</span> Chá Gelado Artesanal.</p>
+                            <p class="preco-combo"><span id="cifra-combo">R$</span> 42,90</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="section-sobrenos">
+            <div class="sobre">
+                <h1 id="titulo-sobrenos">Sobre nós</h1>
+                <p id="texto-sobrenos">A Smash & Craft Burgers nasceu de um sonho compartilhado por dois amigos de infância, apaixonados por gastronomia e por criar momentos inesquecíveis ao redor da mesa. Inspirados por viagens e experiências gastronômicas pelo mundo, eles decidiram trazer para sua cidade natal o melhor do estilo smash burger, combinado com a autenticidade das cervejas artesanais.</br></br>
+                    Tudo começou em uma garagem improvisada, onde testavam receitas para amigos e familiares. Cada detalhe era pensado: da escolha de carnes suculentas e ingredientes frescos, comprados de pequenos produtores locais, até os molhos feitos à mão, com segredos guardados a sete chaves. Não demorou para que as filas se formassem, atraindo pessoas que buscavam mais do que apenas um hambúrguer — queriam uma experiência única.</br></br>
+                    A paixão pela inovação levou à criação de um cardápio que não apenas celebra os clássicos, mas também abraça a diversidade com opções vegetarianas e veganas, sempre harmonizadas com sugestões de cervejas artesanais cuidadosamente selecionadas.</br></br>
+                    Com uma decoração moderna e um ambiente acolhedor, o Smash & Craft tornou-se rapidamente o lugar perfeito para encontros entre amigos, jantares românticos ou happy hours animados. A missão da hamburgueria é clara: não vender apenas comida, mas criar momentos de prazer e celebração, onde cada mordida conta uma história de qualidade e dedicação.</br></br>
+                    Hoje, o Smash & Craft continua crescendo, mas nunca perdeu suas raízes. Cada hambúrguer servido é um lembrete de que, às vezes, as melhores ideias surgem nas conversas mais simples, com pessoas apaixonadas e muita criatividade na cozinha.</p>
+            </div>
+        </section>
+
+        <section id="section-locali">
+
+            <h1 id="titulo-locali">Onde estamos</h1>
+
+            <div class="locali">
+                <div class="mapa">
+                    <img src="imagens/mapa.jpg" alt="">
+                </div>
+
+                <div class="infos">
+                    <div class="endereco">
+                        <h1>Endereço:</h1>
+                        <p>Rua dos sabores, 123 - Centro, São Paulo, SP.</p>
+                    </div>
+
+                    <div class="horarios">
+                        <h1>Horários de atendimento:</h1>
+                        <p>Segunda a Quinta - 18h às 23h</p>
+                        <p>Sexta e Sábado - 18h às 00h</p>
+                        <p>Domingo - 17h às 22h</p>
+                    </div>
+
+                    <div class="tel">
+                        <h1>Telefone:</h1>
+                        <p>(xx) xxxx-xxxx</p>
+                        <p>(xx) xxxxx-xxxx (Whatsapp)</p>
+                    </div>
+
+                    <div class="instagram">
+                        <h1>Instagram:</h1>
+                        <p>@seuinstagram</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <p>© 2024 Smash & Craft Burgers. Todos os direitos reservados.</p>
+            <p>Hambúrgueres artesanais feitos com paixão. Siga-nos nas redes sociais:</p>
+            <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Whatsapp</a>
+            <p>Endereço: Rua dos Sabores, 123 - Centro, São Paulo, SP.</p>
+            <p>Contato: (11) 98765-4321 | atendimento@smashcraft.com.br</p>
+        </div>
+        <div class="dev">
+            <p>Desenvolvido por <a href="#">@thamiristrentin</a></p>
+        </div>
+    </footer>
 </body>
 </html>

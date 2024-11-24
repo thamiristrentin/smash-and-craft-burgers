@@ -10,6 +10,13 @@
     --bege: #F5E9DA;
     --amarelo: #FFC107;
     --vermelho: #E53935;
+    --verde-escuro: #104500;
+    --verde-medio: #145301;
+    --verde-claro: #7FD266;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @font-face {

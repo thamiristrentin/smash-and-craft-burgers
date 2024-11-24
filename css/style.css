@@ -65,15 +65,14 @@ li a:hover {
 }
 
 .texto-cta {
-    width: 51%;
-    padding: 5em 0 0 10em;
+    padding: 6em 45em 0em 10em;
+    max-width: 1300px;
 }
 
 .texto-cta h1 {
     font: 3.75em Poppins-LightItalic, sans-serif;
     color: var(--branco);
     line-height: 1.7em;
-    padding-bottom: 0.7em;
 }
 
 .texto-cta p {
@@ -82,18 +81,16 @@ li a:hover {
 }
 
 .chamada-cta {
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
-}
-
-.texto-cta img {
-    padding-top: 3em;
+    justify-content: space-around;
+    gap: 2em;
 }
 
 .botao-cta {
     display: flex;
     justify-content: center;
-    padding: 3em 0;
 }
 
 .botao-cta a {
@@ -116,18 +113,254 @@ li a:hover {
 
 /* SECTION DESTAQUES*/
 
-.destaques {
-    width: 100%;
+#section-destaques {
     background-color: var(--amarelo);
 }
 
-#titulo-destaques {
+.destaques {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.destaques-geral {
+    padding: 0em 15em;
+}
+
+.titulo-destaques {
     color: var(--cinza);
     font: 4em Poppins-Bold, sans-serif;
     text-decoration: underline;
     text-align: center;
+    padding: 1em 0;
 }
 
-.destaques-geral {
-    padding: 4em 0;
+.burger {
+    display: flex;
+    gap: 2em;
+    padding-bottom: 7em;
+}
+
+.nome-burger {
+    font: 4em Poppins-Bold, sans-serif;
+    color: var(--branco);
+    text-decoration: underline dotted;
+}
+
+.descricao-burger {
+    font: 2em Poppins-ExtraLight, sans-serif;
+    color: var(--preto);
+}
+
+.diferencial-burger {
+    font: 2em Poppins-Regular, sans-serif;
+    color: var(--vermelho);
+    padding-top: 0.6em;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preco h2 {
+    font: 2em Poppins-ExtraBold, sans-serif;
+    text-decoration: line-through;
+    color: var(--cinza);
+    padding-left: 6.5em;
+}
+
+#cifra-h2 {
+    font: 1.43rem Poppins-ExtraBold, sans-serif;
+}
+
+.preco h1 {
+    font: 3.12em Poppins-ExtraBold, sans-serif;
+    color: var(--cinza);
+}
+
+#cifra-h1 {
+    font-size: 2.18rem;
+}
+
+.img-burger img {
+    border-radius: 50%;
+}
+
+/* SECTION DESTAQUES VEG*/
+
+#section-destaques-veg {
+    background-color: var(--verde-claro);
+}
+
+.nome-burgerveg {
+    font: 4em Poppins-Bold, sans-serif;
+    color: var(--verde-escuro);
+    text-decoration: underline dotted;
+}
+
+.diferencial-burgerveg {
+    font: 2em Poppins-Regular, sans-serif;
+    color: var(--verde-medio);
+    padding-top: 0.6em;
+}
+
+
+/* SECTION COMBOS*/
+
+#section-combos {
+    background-color: var(--preto);
+}
+
+.combos {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 12em;
+    padding: 0 10em;
+}
+
+.titulo-combos {
+    color: var(--amarelo);
+    font: 4em Poppins-Bold, sans-serif;
+    text-align: center;
+    padding: 0.9em 0;
+}
+
+.nome-combo {
+    font: 2.43em Poppins-Bold, sans-serif;
+    color: var(--amarelo);
+}
+
+.descricao-combo {
+    font: 1.75em Poppins-ExtraLight, sans-serif;
+    color: var(--branco);
+}
+
+#mais-combo {
+    color: var(--vermelho);
+}
+
+.preco-combo {
+    font: 2em Poppins-ExtraBold, sans-serif;
+    color: var(--vermelho);
+}
+
+#cifra-combo {
+    font-size: 1.43rem;
+}
+
+.nome-combo-veg {
+    font: 2.43em Poppins-Bold, sans-serif;
+    color: var(--verde-claro);
+}
+
+.combos-direita {
+    text-align: right;
+    margin-left: auto;
+}
+
+.combos-esquerda {
+    text-align: left;
+}
+
+.combo {
+    padding-bottom: 5em;
+}
+
+
+/* SECTION SOBRE NÓS*/
+
+#section-sobrenos{
+    background-color: var(--bege);
+}
+
+.sobre {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10em 4em 10em;
+}
+
+#titulo-sobrenos {
+    color: var(--amarelo);
+    font: 4em Poppins-Bold, sans-serif;
+    text-align: center;
+    padding: 0.9em 0;
+}
+
+#texto-sobrenos {
+    font: 1.2em Poppins-ExtraLight, sans-serif;
+}
+
+
+/* SECTION LOCALIZAÇÃO */
+
+#section-locali {
+    background-color: var(--cinza);
+}
+
+#titulo-locali {
+    color: var(--amarelo);
+    font: 4em Poppins-Bold, sans-serif;
+    text-align: center;
+    padding: 0.9em 0;
+}
+
+.locali {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6em;
+}
+
+.locali img {
+    border-radius: 50px;
+    border: solid 5px var(--preto);
+}
+
+.infos h1 {
+    font: 2.5em Poppins-Regular, sans-serif;
+    color: var(--branco);
+}
+
+.infos p {
+    font: 2.18em Poppins-ExtraLight, sans-serif;
+    color: var(--branco);
+    padding-left: 2rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding-left: 2em;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--preto);
+    max-width: 100%;
+    font: 1.5em Poppins-Thin, sans-serif;
+    line-height: 190%;
+    color: var(--branco);
+    padding: 2em 6em;
+    display: flex;
+}
+
+footer a {
+    color: var(--branco);
+}
+
+.dev {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.dev a {
+    text-decoration: none;
 }
