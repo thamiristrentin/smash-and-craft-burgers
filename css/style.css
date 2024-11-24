@@ -209,7 +209,8 @@ li a:hover {
 /* SECTION COMBOS*/
 
 #section-combos {
-    background-color: var(--preto);
+    background: var(--preto) url("../imagens/background-combos.jpg") no-repeat bottom center;
+
 }
 
 .combos {
@@ -235,6 +236,7 @@ li a:hover {
 .descricao-combo {
     font: 1.75em Poppins-ExtraLight, sans-serif;
     color: var(--branco);
+    text-shadow: 3px 3px 4px 5px #1c1c1c;
 }
 
 #mais-combo {
