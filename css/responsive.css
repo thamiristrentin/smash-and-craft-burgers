@@ -1,0 +1,256 @@
+@media screen and (max-width: 480px) {
+
+    .home {
+        height: 3em;
+        width: 3em;
+        bottom: 2em;
+        right: 2em;
+    }
+
+    /* SECTION PRINCIPAL*/
+
+    .background-principal {
+        background: var(--preto) url("../imagens/background-480p.jpg") no-repeat bottom center;
+        background-size: cover;
+    }
+
+    .nav-bar {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .nav {
+        padding: 3em 0;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        font-size: 1.2em;
+        gap: 0.5em;
+    }
+
+    #link-reserve {
+        font-size: 1.37em;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* SECTION CTA*/
+
+    .cta {
+        height: max-content;
+    }
+
+    .texto-cta {
+        padding: 3em 1em;
+        text-align: center;
+    }
+
+    .texto-cta h1 {
+        font-size: 1.2em;
+        line-height: 1.28em;
+    }
+
+    .texto-cta p {
+        font-size: 1em;
+        padding-top: 4%;
+    }
+    
+    .img-cta {
+        height: 20em;
+        width: 20em;
+
+        bottom: 8%;
+        right: 50%;
+        transform: translate(50%);
+    }
+
+    .chamada-cta {
+        gap: 14em;
+        padding-top: 5%;
+    }
+
+    .fundo-botaocta {
+        border-radius: 60px;
+        font-size: 1.56em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em 1.3em;
+    }
+
+    /* SECTION DESTAQUES*/
+
+    .destaques {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .destaques-geral {
+        padding: 0em 0em;
+    }
+
+    .titulo-destaques {
+        font-size: 2.5em;
+    }
+
+    .burger {
+        gap: 2em;
+        padding-bottom: 3em;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #burger1,
+    #burger3, #burger5 {
+        flex-direction: column-reverse;
+    }
+
+
+    .nome-burger,
+    .nome-burgerveg {
+        font-size: 2.5em;
+    }
+
+    .descricao-burger,
+    .diferencial-burger, 
+    .diferencial-burgerveg {
+        font-size: 1.12em;
+    }
+
+    .img-burger img {
+        width: 20em;
+        height: 20em;
+    }
+
+    .preco h2 {
+        font-size: 1.5em;
+        padding-left: 6.5em;
+    }
+    
+    #cifra-h2 {
+        font-size: 1.18rem;
+    }
+    
+    .preco h1 {
+        font-size: 2.25em;
+    }
+    
+    #cifra-h1 {
+        font-size: 1.62rem;
+    }
+
+    /* SECTION COMBOS*/
+
+    #section-combos {
+        background-image: url("../imagens/background-combos-480p.jpg");
+    }
+
+    .combos {
+        max-width: 360px;
+        padding: 4em;
+        display: flex;
+        flex-direction: column;
+        padding: 0 2em;
+        gap: 0;
+    }
+
+    .combos-direita {
+        text-align: left;
+    }
+
+    .titulo-combos {
+        font-size: 2.5em;
+    }
+
+    .nome-combo, 
+    .nome-combo-veg {
+        font-size: 1.5em;
+    }
+
+    .descricao-combo {
+        font-size: 1.18em;
+    }
+
+    .preco-combo{
+        font-size: 2em;
+    }
+
+    .combo {
+        padding-bottom: 3em;
+    }
+
+    /* SECTION SOBRE NÓS*/
+
+    .sobre {
+        max-width: 360px;
+        padding: 1em 1em;
+    }
+
+    #titulo-sobrenos {
+        font-size: 2.5em;
+        padding: 0.3em 0;
+    }
+
+    /* SECTION LOCALIZAÇÃO */
+
+    #titulo-locali {
+        font-size: 2.5em;
+        padding: 0.9em 0;
+    }
+
+    .locali {
+        max-width: 360px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 4em;
+    }
+
+    .locali img {
+        width: 80%;
+    }
+
+    .mapa {
+        text-align: center;
+    }
+
+    .infos h1 {
+        font-size: 1.75em;
+    }
+
+    .infos p {
+        font-size: 1.25em;
+        padding-left: 1rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 0.87em;
+        flex-direction: column;
+        padding: 2em 3em;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #copyright, 
+    .dev {
+        font-size: 1rem;
+    }
+
+    #copyright {
+        padding-bottom: 1em;
+    }
+
+    .dev {
+        padding-top: 1.5em;
+        margin: 0;
+    }
+}

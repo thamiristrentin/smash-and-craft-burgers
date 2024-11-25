@@ -1,3 +1,16 @@
+.home {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+    z-index: 1000;
+    background: var(--amarelo) url("../imagens/seta.png") no-repeat center center;
+    background-size: cover;
+}
+
+
 /* SECTION PRINCIPAL*/
 
 .nav-bar {
@@ -35,7 +48,7 @@ li a:hover {
 .background-principal {
     background: var(--preto) url("../imagens/background.jpg") no-repeat bottom center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: var(--amarelo);
 }
@@ -210,7 +223,7 @@ li a:hover {
 
 #section-combos {
     background: var(--preto) url("../imagens/background-combos.jpg") no-repeat bottom center;
-
+    background-size: cover;
 }
 
 .combos {
