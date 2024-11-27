@@ -14,9 +14,15 @@
         background-size: cover;
     }
 
+    .logo-principal {
+        padding-bottom: 15em;
+        padding-top: 2em;
+    }
+
     .nav-bar {
         flex-direction: column-reverse;
         padding: 0;
+        gap: 2em;
     }
 
     .nav {
@@ -269,11 +275,18 @@
     .background-principal {
         background: var(--preto) url("../imagens/background-768p.jpg") no-repeat bottom center;
         background-size: cover;
+
+        height: max-content;
+    }
+
+    .logo-principal {
+        padding-bottom: 15em;
     }
 
     .nav-bar {
         flex-direction: column-reverse;
         padding: 0;
+        gap: 1em;
     }
 
     .nav {
@@ -288,7 +301,6 @@
 
     #link-reserve {
         font-size: 2.5em;
-        padding-top: 1em;
         display: flex;
         justify-content: center;
     }
@@ -316,8 +328,8 @@
     .img-cta {
         height: 20em;
         width: 20em;
-        bottom: -5em;
-        right: -5em;
+        bottom: -2em;
+        right: -4em;
     }
 
     .chamada-cta {
@@ -509,7 +521,27 @@
 
 }
 
+@media screen and (min-width: 481px) and (max-width: 950px) {
+    .background-principal {
+        height: max-content;
+    }
+
+    #link-reserve {
+        padding-bottom: 1em;
+        font-size: 1.5em;
+    }
+
+    .nav-bar {
+        padding: 0;
+    }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+    
+    .logo-principal {
+        padding-bottom: 15em;
+    }
+    
     /* SECTION CTA*/
 
     .cta {
@@ -605,15 +637,20 @@
     }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1280px) {
+@media screen and (min-width: 951px) and (max-width: 1279px) {
     
     .nav-bar {
-        padding: 4em 7em;
+        padding: 4em 4em;
+        gap: 10em;
     }
 
     nav ul {
         font-size: 1.5em;
         gap: 0.5em;
+    }
+
+    .logo-principal {
+        padding-bottom: 15em;
     }
 
     #link-reserve {
@@ -656,6 +693,7 @@
     .nav-bar {
         flex-direction: column-reverse;
         padding: 0;
+        gap: 3em;
     }
 
     .nav {
@@ -670,7 +708,6 @@
 
     #link-reserve {
         font-size: 2.7em;
-        padding-top: 1em;
         display: flex;
         justify-content: center;
     }
@@ -717,9 +754,17 @@
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1554px) {
+@media screen and (min-width: 1280px) and (max-width: 1554px) {
 
-     /* SECTION PRINCIPAL*/
+    .nav-bar {
+        gap: 10em;
+    }
+   
+    nav ul {
+        gap: 0.5em;
+    } 
+    
+    /* SECTION PRINCIPAL*/
 
      .cta {
         height: max-content;
@@ -796,4 +841,13 @@
         font-size: 1.5em;
         padding-left: 2rem;
     }
+}
+
+@media screen and (min-width: 1555px) and (max-width: 1826px) {
+    .nav-bar {
+        gap: 20em;
+    }
+
+    .locali {
+        padding: 5em;
 }

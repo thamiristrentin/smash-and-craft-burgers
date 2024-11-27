@@ -16,16 +16,13 @@
 .nav-bar {
     display: flex;
     padding: 4em 10em;
+    gap: 45em;
 }
 
 #link-reserve {
     font: 1.81em Tillana-ExtraBold, sans-serif;
     color: var(--amarelo);
     text-decoration: none;
-}
-
-.nav {
-    margin-left: auto;
 }
 
 nav ul {
@@ -50,8 +47,21 @@ li a:hover {
     background: var(--preto) url("../imagens/background.jpg") no-repeat bottom center;
     background-size: cover;
     max-width: 100%;
-    height: 100vh;
+    height: max-content;
     color: var(--amarelo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-principal {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30em;
+}
+
+.logo-principal img {
+    width: 60%;
 }
 
 
@@ -59,7 +69,7 @@ li a:hover {
 
 .cta {
     background-color: var(--preto);
-    height: 100vh;
+    height: max-content;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -96,6 +106,7 @@ li a:hover {
 
 .chamada-cta {
     padding-top: 2%;
+    padding-bottom: 5em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
