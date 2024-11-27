@@ -33,6 +33,7 @@ nav ul {
     color: var(--amarelo);
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 1.1em;
 }
 
@@ -48,7 +49,7 @@ li a:hover {
 .background-principal {
     background: var(--preto) url("../imagens/background.jpg") no-repeat bottom center;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     color: var(--amarelo);
 }
@@ -334,6 +335,10 @@ li a:hover {
 .locali img {
     border-radius: 50px;
     border: solid 5px var(--preto);
+}
+
+.mapa {
+    margin: 0 auto;
 }
 
 .infos h1 {
